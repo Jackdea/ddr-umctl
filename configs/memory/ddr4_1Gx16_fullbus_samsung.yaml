@@ -1,0 +1,83 @@
+# This memory map is for Samsung K4AAG165WA-BCWE (DDR4-3200 22-22-22):
+# Density : 16G bits
+#  - Organization : 128M words x 16 bits x 8 banks
+#  - # of Bank Groups: 2
+#  - Bank Address:     BA0 ~ BA1
+#  - Bank Group:       BG0
+#  - Row Address:      A0 ~ A16
+#  - Column Address:   A0 ~ A9
+#  - Page size:        2 KB
+# You can use this for other devices with the same organization
+---
+addrmap0:
+  ADDRMAP_CS_BIT0: 31
+addrmap1:
+  ADDRMAP_BANK_B0: 26
+  ADDRMAP_BANK_B1: 26
+  ADDRMAP_BANK_B2: 63
+addrmap2:
+  ADDRMAP_COL_B2: 7
+  ADDRMAP_COL_B3: 0
+  ADDRMAP_COL_B4: 0
+  ADDRMAP_COL_B5: 0
+addrmap3:
+  ADDRMAP_COL_B6: 0
+  ADDRMAP_COL_B7: 0
+  ADDRMAP_COL_B8: 0
+  ADDRMAP_COL_B9: 1
+addrmap4:
+  ADDRMAP_COL_B10: 31
+  ADDRMAP_COL_B11: 31
+addrmap5:
+  ADDRMAP_ROW_B0: 5
+  ADDRMAP_ROW_B1: 5
+  ADDRMAP_ROW_B2_10: 5
+  ADDRMAP_ROW_B11: 5
+addrmap6:
+  ADDRMAP_ROW_B12: 5
+  ADDRMAP_ROW_B13: 5
+  ADDRMAP_ROW_B14: 5
+  ADDRMAP_ROW_B15: 5
+addrmap7:
+  ADDRMAP_ROW_B16: 5
+  ADDRMAP_ROW_B17: 15
+addrmap8:
+  ADDRMAP_BG_B0: 0
+  ADDRMAP_BG_B1: 63
+
+ 
+## addrmap0:
+##   ADDRMAP_CS_BIT0: 31
+## addrmap1:
+##   ADDRMAP_BANK_B0: 26 #5
+##   ADDRMAP_BANK_B1: 26 #5
+##   ADDRMAP_BANK_B2: 63
+## addrmap2:
+##   ADDRMAP_COL_B2: 7 #0
+##   ADDRMAP_COL_B3: 0 #1
+##   ADDRMAP_COL_B4: 0 #1
+##   ADDRMAP_COL_B5: 0 #1
+## addrmap3:
+##   ADDRMAP_COL_B6: 0 #3
+##   ADDRMAP_COL_B7: 0 #19
+##   ADDRMAP_COL_B8: 0 #19
+##   ADDRMAP_COL_B9: 1 #19
+## addrmap4:
+##   ADDRMAP_COL_B10: 31
+##   ADDRMAP_COL_B11: 31
+## addrmap5:
+##   ADDRMAP_ROW_B0: 5 #4
+##   ADDRMAP_ROW_B1: 5 #4
+##   ADDRMAP_ROW_B2_10: 5 #4
+##   ADDRMAP_ROW_B11: 5 #4
+## addrmap6:
+##   ADDRMAP_ROW_B12: 5 #4
+##   ADDRMAP_ROW_B13: 5 #4
+##   ADDRMAP_ROW_B14: 5 #4
+##   ADDRMAP_ROW_B15: 5 #4
+## addrmap7:
+##   ADDRMAP_ROW_B16: 5 #15
+##   ADDRMAP_ROW_B17: 15
+## addrmap8:
+##   ADDRMAP_BG_B0: 0 #1
+##   ADDRMAP_BG_B1: 63

@@ -1,0 +1,19 @@
+---
+:registers:
+  zqcr:
+    - ASYM_DRV_EN: 1
+    - PU_ODT_ONLY: 1
+    - DIS_NON_LIN_COMP: 0
+    - PGWAIT: 4
+  zq0pr:
+    - ZQDIV: 23
+    - ZPROG_ASYM_DRV_PU: 3
+    - ZPROG_ASYM_DRV_PD: 3
+  zq1pr:
+    - ZQDIV: 23
+    - ZPROG_ASYM_DRV_PU: 3
+    - ZPROG_ASYM_DRV_PD: 3 
+  zq2pr:
+    - ZQDIV: 23
+    - ZPROG_ASYM_DRV_PU: 3
+    - ZPROG_ASYM_DRV_PD: 3

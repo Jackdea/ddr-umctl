@@ -1,0 +1,17 @@
+---
+# SoC platform
+:platform:		sparx5
+# Total Memory Size (in Mbytes)
+:mem_size_mbytes:	2048
+:mem_type:		DDR4
+# Density of the individual DDR chips used (DDR4 only)
+:configured_density:    16G
+:device_bus_width:	x16
+:active_ranks:		1
+:ecc_mode:		0
+:mem_profile:		ddr4_1Gx16_fullbus_samsung
+:_2T_mode:		1
+# DDR Clock of platform (Data Bus)
+:clock_speed:		1250
+# Board ODT setup etc
+:board:			pcb135_ddr4
